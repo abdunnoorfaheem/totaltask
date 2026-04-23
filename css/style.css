@@ -1,0 +1,38 @@
+.box{
+    height: 500px;
+    width: 800px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+}
+.circle{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
+.temp{
+    border: 1px solid black;
+    height: 800px;
+    width: 1000px;
+    display: grid;
+
+}
+.header{
+    width: 500px;
+    height: 300px;
+    border: 1px;
+}
+.sidebar{
+width: 200px;
+    height: 300px;
+    border: 1px;
+}
+.maincontent{width: 300px;
+    height: 300px;
+    border: 1px;}
+.footer{
+    width: 500px;
+    height: 300px;
+    border: 1px;
+}
