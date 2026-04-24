@@ -36,3 +36,88 @@ width: 200px;
     height: 300px;
     border: 1px;
 }
+
+.square{
+    height: 300px;
+    width: 500px;
+    border: 1px solid black;
+    position: static;
+    /* margin-bottom: 10px; */
+
+}
+
+.square2{
+    height: 300px;
+    width: 500px;
+    border: 1px solid black;
+    position: relative;
+      top: 50px;
+}
+.square3{
+    height: 200px;
+    width: 200px;
+    border: 3px solid black;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+      
+}
+.square4{
+    height: 200px;
+    width: 1400px;
+    border: 2px solid black;
+    background: lightblue;
+    position: fixed;  
+    top: 0;
+    left:0
+
+}
+.square5{
+    height: 200px;
+    width: 1400px;
+    border: 2px solid black;
+    background: midnightblue;
+    border-radius: 20px;
+    position: sticky;
+    top: 20px;
+    right: 0;
+
+}
+.parent{
+    display: flex;
+    height: 500px;
+    width: 900px;
+    border: 1px solid black;
+}
+.child{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+}
+
+.space{
+    height: 800px;
+    width: 1000px;
+    border: 1px solid blue;
+    display: grid;
+    
+    
+}
+.spaceOne{
+    height: 300px;
+    width: 400px;
+    border: 1px solid blue;
+    
+}
+.spaceTwo{
+    height: 300px;
+    width: 400px;
+    border: 1px solid blue;
+    
+}
+.spaceThree{
+    height: 300px;
+    width: 400px;
+    border: 1px solid blue;
+    
+}
