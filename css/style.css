@@ -6,11 +6,11 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 5px;
 }
-.circle{
+/* .circle{
     height: 200px;
     width: 200px;
     border: 1px solid black;
-}
+} */
 .temp{
     border: 1px solid black;
     height: 800px;
@@ -117,7 +117,24 @@ width: 200px;
 }
 .spaceThree{
     height: 300px;
-    width: 400px;
+    width: 700px;
     border: 1px solid blue;
     
+}
+
+.flag{
+   height: 400px;
+   width: 500px;
+   background: green;
+   position: relative;
+}
+.circle{
+    height: 200px;
+    width: 200px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
